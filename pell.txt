@@ -1,19 +1,13 @@
 Reelle Lösungen
 Primzahltest und Faktorisierungsalgorithmen
-Beispielaufgabe x^2-5y^2=1 (9,4) -> Aufgabe?
 Attribution: Satz von Lagrange, Pell, Brahmagupta
-
-
-Welche Zahlen sind gleichzeitig Dreieckszahlen und Quadratzahlen? -> Aufgabe?
-
-Fundamentallösungen hoch negative Exponenten sind Lösungen -> Aufgabe?
-
-Alle Lösungen der Pellschen Gleichung? (Ich möchte im Dreck wühlen.)
-
-Nicht-Lösbarkeit Beispiel mit Anleitung? x^2-37y^2
 
 Fragen von und für Meru:
 
 An welchen Stellen benutzt man genau, dass \sqrt d irrational ist?
-Brauche ich eine Einführung in irrationale Zahlen? -> Aufgabe?
 
+Übungsblatt:
+Seitenzahl entfernen
+Chili-Symbol
+Abstände?
+Bild?
