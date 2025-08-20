@@ -1,0 +1,52 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{geometry}
+\geometry{a4paper, top=2cm, bottom=2cm, left=2cm, right=2cm}
+\pagestyle{empty}
+
+\title{Übungsblatt Pellsche Gleichungen}
+
+\newcounter{task}
+\renewcommand{\thesubsection}{\arabic{task}}
+\newcommand{\task}{\stepcounter{task}\subsection}
+
+\begin{document}
+
+\date{}
+\maketitle
+Im Folgenden sollen Lösungen immer ganzzahlige Lösungen sein.
+\task{Aufwärmen}
+
+Finde durch geschicktes Ausprobieren eine Lösung von \[x^2-5y^2=1\text{.}\] Kannst Du mit dem Satz von Lagrange alle Lösungen beschreiben?
+
+\task{Wieso sind die Voraussetzungen für normale Pellsche Gleichungen sinnvoll?}
+
+\begin{enumerate}
+    \item Welche Lösungen hat $x^2-dy^2=1$, falls $d$ eine Quadratzahl ist?
+    \item Wieso hat $x^2-dy^2=n$ für $d<0$ höchstens endlich viele Lösungen? Kannst Du eine Abschätzung für die Anzahl Lösungen angeben?
+    \item Wieso hat $x^2-3y^2=2$ keine Lösungen?
+\end{enumerate}
+
+\task{Wenn man den Witz erklärt, ist er nicht mehr lustig.}
+Im Folgenden soll die Lösungsstruktur der \emph{verallgemeinerten} Pellschen Gleichung
+
+\begin{align}\label{verallg}
+x^2-dy^2=n    
+\end{align}
+
+für $n\neq 0$ beschrieben werden.
+
+Sei $u=a+b\sqrt d>1$ die Fundamentallösung von $x^2-dy^2=1$. Zeige, dass es für jede Lösung der Lösung $(x,y)$ von (\ref{verallg}) eine weitere Lösung $(x',y')$ der Form \[
+(x'+y'\sqrt{d})=(x+y\sqrt{d})u^k
+\] gibt, welche \[\vert x'\vert\leq\frac{u+\vert n\vert}{2}\] und \[\vert y'\vert\leq\frac{u+\vert n\vert}{2\sqrt{d}}\] erfüllt.
+
+\begin{enumerate}
+    \item Interpretiere das Ergebnis.
+    \item Die Gleichung $x^2-37y^2=1$ hat die Fundamentallösung $u=73+12\sqrt{37}$. Zeige (evtl. unter Zuhilfenahme eines Taschenrechners), dass $x^2-37y^2=11$ gar keine Lösungen hat.
+\end{enumerate}
+\end{document}
